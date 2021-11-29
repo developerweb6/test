@@ -1,0 +1,111 @@
+
+  .slick-sldier {
+    float: left;
+    width: 100%;
+    text-align:center;
+}
+.img {
+    width: 100%;
+}
+.menus-outer a.active {
+    color: #8ec845 !important;
+}
+.wdt{
+    position: relative;
+}
+.wdt:before {
+    background-color: rgba(31, 39, 50, 0.7);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.slider-text {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    height: 107%;
+    left: 15px;
+    position: absolute;
+    right: 15px;
+    top:10%;
+    z-index: 5;
+    padding: 100px 0;
+}
+.slider-text h2 {
+    color: #fff;
+    font-size: 200px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+.color-main2 {
+    border-color: #a0ce4e;
+    color: #a0ce4e !important;
+}
+.color-main3 {
+    border-color: #00bea3;
+    color: #00bea3 !important;
+}
+.color-main4 {
+    border-color: #f1894c;
+    color: #f1894c !important;
+}
+.slider-text h3 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 200;
+    line-height: 0.8;
+    margin: 0;
+    padding: 0 0.2em;
+    text-align: center;
+    text-shadow: 0 0 7px rgb(0 0 0 / 25%);
+}
+.about-section {
+    padding: 50px 0px;
+    background: #ededed;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+h2.about_heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+}
+h2.about_heading strong {
+    color: #8CC542;
+}
+.col-lg-6.col-md-6.home-about-right p {
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+}
+a.btn.btn-maincolor {
+    color: #fff;
+    background: -webkit-linear-gradient( 
+0deg, #5d7c36 0%, #83A83D 100%) !important;
+    border-radius: 30px 30px 30px 0;
+}
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    letter-spacing: 0.2em;
+    line-height: 1.6em;
+    padding: 15px 30px !important;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    border: none !important;
+    border-radius: 0px;
+}
+
