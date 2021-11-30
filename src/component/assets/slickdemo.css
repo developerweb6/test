@@ -108,4 +108,35 @@ a.btn.btn-maincolor {
     border: none !important;
     border-radius: 0px;
 }
+.about-section:before {
+    background-color: #ededed;
+    bottom: -35px;
+    content: "";
+    height: 70px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY( 
+3deg);
+    -ms-transform: skewY(3deg);
+    transform: skewY( 
+3deg);
+    width: 50%;
+    z-index: 4;
+}
+.about-section:after {
+    background-color: #ededed;
+    bottom: -35px;
+    content: "";
+    height: 70px;
+    position: absolute;
+    right: 0;
+    -webkit-transform: skewY(
+-3deg);
+    -ms-transform: skewY(-3deg);
+    transform: skewY(
+-3deg);
+    width: 50%;
+    z-index: 4;
+}
+
 

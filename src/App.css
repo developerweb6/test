@@ -121,7 +121,7 @@ div#root {
 
 .menus-outer {
   display: block;
-  text-align: right; 
+  text-align: right;
 }
 .menus-outer a:hover {
   color: #8ec845 !important;

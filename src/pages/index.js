@@ -1,5 +1,5 @@
 import React from 'react';
-//import aboutbanner from '../assets/aboutbanner.jpg';
+import aboutbanner from '../component/aboutbanner.jpg';
 const Home = () => {
   return (
     
@@ -8,9 +8,10 @@ const Home = () => {
       <div class="container">
 			<div class="row">
       <div class="col-lg-5 col-md-5ome-about-left">
-
+      <img  className="img" src= {aboutbanner} className="img"/> 
 </div>
-<div class="col-lg-1 col-md-1 ome-about-left"></div>
+<div class="col-lg-1 col-md-1 ome-about-left">
+</div>
 
 <div class="col-lg-6 col-md-6 home-about-right">
 <h2 class="about_heading">About <strong>CodeNomad</strong></h2>
