@@ -7,12 +7,12 @@ import workarrow from '../component/work-arrow.png';
 const Home = () => {
   return (
     
-    <div classNameName="body-layout">
-      <div classNameName="about-section">
+    <div className="body-layout">
+      <div className="about-section">
       <div className="container">
 			<div className="row">
       <div className="col-lg-5 col-md-5ome-about-left">
-      <img  classNameName="img" src= {aboutbanner} classNameName="img"/> 
+      <img  className="img" src= {aboutbanner} classNameName="img"/> 
 </div>
 <div className="col-lg-1 col-md-1 ome-about-left">
 </div>
@@ -220,7 +220,18 @@ We understand your business requirements &amp; define the target audience. Then 
 
 </section>
 
+<footer>
+<div class="container">
+					<div className="row align-items-center">
+					<div className="divider-20 d-none d-lg-block"></div>
+						<div className="col-md-12 text-center">
+							<p>© Copyright
+								<span className="copyright_year">2021</span> All Rights Reserved</p>
+						</div>
 
+					</div>
+				</div>
+</footer>
 
     </div>
 

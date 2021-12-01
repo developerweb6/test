@@ -268,3 +268,19 @@ section#Opportunities h1, section#Opportunities p {
 .work-icon-box img {
     width: 100%;
 }
+section#steps {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 50px 0px;
+}
+footer {
+    float: left;
+    width: 100%;
+    background-color: #90c94a;
+    padding: 20px;
+}
+footer p {
+    margin: 0px;
+    color: #fff;
+}
