@@ -12,7 +12,7 @@ export class SlickDemo extends Component {
       
             <Slider dots={false}  
             slidesToScroll={1}  
-            autoplay={false}  
+            autoplay={true}  
             autoplaySpeed={2000}>  
               <div className="wdt">  
               <img  className="img" src= {myImg1} className="img" alt=""/>  
