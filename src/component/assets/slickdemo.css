@@ -318,3 +318,11 @@ section#steps:before {
     width: 50%;
     z-index: 4;
 }
+
+.slick-prev {
+    left: 25px;
+    z-index: 9;
+}
+.slick-next {
+    right: 25px;
+}
