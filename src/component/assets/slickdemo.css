@@ -43,7 +43,7 @@ body{
 }
 .slider-text h2 {
     color: #fff;
-    font-size: 200px;
+    font-size: 90px;
     font-weight: 600;
     margin-bottom: 20px;
     white-space: nowrap;
@@ -62,7 +62,7 @@ body{
 }
 .slider-text h3 {
     color: #fff;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: 200;
     line-height: 0.8;
     margin: 0;
