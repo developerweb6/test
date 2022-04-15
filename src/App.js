@@ -18,9 +18,11 @@ function App() {
       
       <Navbar />
      
+     <div class="row">
       <div className="slick-sldier">  
       <SlickDemo/> 
     </div> 
+    </div>
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />

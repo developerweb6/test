@@ -4,6 +4,7 @@ import develop from '../component/service1.png';
 import webdesign from '../component/service2.png';
 import workarrow from '../component/work-arrow.png';
 
+
 const Home = () => {
   return (
     
@@ -12,16 +13,19 @@ const Home = () => {
       <div className="container">
 			<div className="row">
       <div className="col-lg-5 col-md-5ome-about-left">
-      <img  className="img" src= {aboutbanner} classNameName="img"/> 
+      <img  className="img" src= {aboutbanner} classNameName="img" alt="placeholder" /> 
 </div>
 <div className="col-lg-1 col-md-1 ome-about-left">
 </div>
 
-<div className="col-lg-6 col-md-6 home-about-right">
+<div className="col-lg-6 col-md-6 home-about-right"> 
 <h2 className="about_heading">About <strong>CodeNomad</strong></h2>
 <p>Today ,CodeNomad is one of of the fastest growing companies in the IT sector with an urge to do better and better .We provide convenient and innovative solutions for Web development, Web designing and Application development . Our SEO services have helped out many of our clients to establish their online presence .Our vision is to be a leading IT company in the upcoming years by doing some real quality work for our clients .</p>
 <div className="intro_layer page-bottom" data-animation="expandUp" data-toggle="modal">
-<a className="btn btn-maincolor" href="about">View Full Details <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+
+
+<a className="btn btn-maincolor" href="about">View Full Details <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+</div>
 
 </div>
 			</div>
@@ -38,7 +42,7 @@ const Home = () => {
 								<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-									<a href="development"><img src={develop} /></a>
+									<a href="development"><img src={develop} alt="placeholder" /></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -56,7 +60,7 @@ const Home = () => {
 									<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-									<a href="web-design"><img src={webdesign} /></a>
+									<a href="web-design"><img src={webdesign} alt="placeholder" /></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -72,7 +76,7 @@ const Home = () => {
 								<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-									<a href="ecommerce"><img src={develop} /></a>
+									<a href="ecommerce"><img src={develop} alt="placeholder" /></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -89,7 +93,7 @@ const Home = () => {
 						<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-								<a href="marketing"><img src={webdesign} /></a>
+								<a href="marketing"><img src={webdesign} alt="placeholder"/></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -108,7 +112,7 @@ const Home = () => {
 						<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-									<a href="seo-optimization"><img src={develop} /></a>
+									<a href="seo-optimization"><img src={develop}  alt="placeholder"/></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -125,7 +129,7 @@ const Home = () => {
 						<div className="col-12 col-md-6 col-lg-4 margin-b">
 							<div className="vertical-item text-center">
 								<div className="item-media">
-									<a href="branding"><img src={webdesign} /></a>
+									<a href="branding"><img src={webdesign} alt="placeholder" /></a>
 								</div>
 								<div className="item-content">
 									<h6>
@@ -173,7 +177,7 @@ We understand your business requirements &amp; define the target audience. Then 
 <div className="total-work-process d-flex flex-wrap justify-content-around align-items-center">
 <div className="single-work-process">
 <div className="work-icon-box">
-<span className=""><span className=""><img src={webdesign} /></span></span>
+<span className=""><span className=""><img src={webdesign} alt="placeholder" /></span></span>
 </div>
 <h4 className="caption">1. Strategy</h4>
 </div>
@@ -182,7 +186,7 @@ We understand your business requirements &amp; define the target audience. Then 
 </div>
 <div className="single-work-process">
 <div className="work-icon-box">
-<span className="lnr lnr-layers"><img src={webdesign} /></span>
+<span className="lnr lnr-layers"><img src={webdesign} alt="placeholder" /></span>
 </div>
 <h4 className="caption">2. Design</h4>
 </div>
@@ -191,16 +195,16 @@ We understand your business requirements &amp; define the target audience. Then 
 </div>
 <div className="single-work-process">
 <div className="work-icon-box">
-<span className="lnr lnr-layers"><img src={webdesign} /></span>
+<span className="lnr lnr-layers"><img src={webdesign} alt="placeholder" /></span>
 </div>
-<h4 className="caption">3. Develop</h4>
+<h4 className="caption">3. Development</h4>
 </div>
 <div className="work-arrow">
 <img src={workarrow} alt=""/>
 </div>
 <div className="single-work-process">
 <div className="work-icon-box">
-<span className="lnr lnr-layers"><img src={webdesign} /></span>
+<span className="lnr lnr-layers"><img src={webdesign} alt="placeholder" /></span>
 </div>
 <h4 className="caption">4. Testing</h4>
 </div>
@@ -209,7 +213,7 @@ We understand your business requirements &amp; define the target audience. Then 
 </div>
 <div className="single-work-process">
 <div className="work-icon-box">
-<span className="lnr lnr-layers"><img src={webdesign}  /></span>
+<span className="lnr lnr-layers"><img src={webdesign} alt="placeholder"  /></span>
 </div>
 <h4 className="caption">5. Support</h4>
 </div>
@@ -219,6 +223,148 @@ We understand your business requirements &amp; define the target audience. Then 
 </div>
 
 </section>
+
+<section class="ls animate animated fadeInUp" id="Featured_projects" data-animation="fadeInUp">
+<div class="container">
+<h2 class="about_heading">Our Featured <strong> Projects</strong></h2>
+<div class="col-lg-12">
+						
+
+							<div class="row isotope-wrapper masonry-layout c-mb-30 glry_home">
+
+								<div class="col-xl-4 col-sm-6 web-design design  closed-box bg-1">
+
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">                                        																		
+										<div class="item-media">										
+										<img src={workarrow} alt="placeholder"/>
+										<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+											<h6 class="project_heading">
+											Sales funnel Page
+											</h6>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-xl-4 col-sm-6 advertisement branding closed-box  bg-2">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+										<h6 class="project_heading">
+											premierproled
+											</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4 col-sm-6 logo-design design advertisement closed-box bg-3">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+										<h6 class="project_heading">donerg</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4 col-sm-6 web-design logo-design closed-box bg-4">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+											<h6 class="project_heading">
+											lipmonthly
+												
+											</h6>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-xl-4 col-sm-6 advertisement photo branding closed-box">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+												<h6 class="project_heading">
+												hipstercoffees
+												</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4 col-sm-6 logo-design photo design branding closed-box">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+																	 
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+											<h6 class="project_heading">
+											
+												ENDlessbay
+											</h6>
+										</div>
+									</div>
+								</div>
+								
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+											<h6 class="project_heading">
+											
+												MOBILELEB
+											</h6>
+										</div>
+									</div>
+								</div>
+									<div class="col-xl-4 col-sm-6 advertisement photo branding closed-box">
+									<div class="vertical-item item-gallery content-absolute gallery text-center ls">
+										<div class="item-media">
+										<img src={workarrow} alt="placeholder"/>
+											<div class="media-links">
+											</div>
+										</div>
+										<div class="item-content">
+										<h6 class="project_heading">
+										Nacliving
+											</h6>
+										</div>
+									</div>
+											
+								
+			
+<div class="intro_layer page-bottom width_100">
+					<center>
+<a class="btn btn-maincolor" href="work">View Full projects</a></center></div>
+</div>
+</div>
+</div>
+</section>
+
+
 
 <footer>
 <div class="container">

@@ -273,6 +273,8 @@ section#steps {
     float: left;
     width: 100%;
     margin: 50px 0px;
+    position:relative;
+    padding:50px 0px;
 }
 footer {
     float: left;
@@ -283,4 +285,36 @@ footer {
 footer p {
     margin: 0px;
     color: #fff;
+}
+section#Featured_projects{
+    float:left;
+    width:100%;
+    background: #efefef;
+    padding:50px;
+}
+section#steps:after{
+    background: #efefef;
+    bottom: -85px;
+    content: "";
+    height: 70px;
+    position: absolute;
+    right: 0;
+    -webkit-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    width: 50%;
+    z-index: 4;
+}
+section#steps:before {
+    background: #efefef;
+    bottom: -85px;
+    content: "";
+    height: 70px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
+    width: 50%;
+    z-index: 4;
 }

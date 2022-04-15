@@ -12,10 +12,10 @@ export class SlickDemo extends Component {
       
             <Slider dots={false}  
             slidesToScroll={1}  
-            autoplay={true}  
+            autoplay={false}  
             autoplaySpeed={2000}>  
               <div className="wdt">  
-              <img  className="img" src= {myImg1} className="img"/>  
+              <img  className="img" src= {myImg1} className="img" alt=""/>  
               <div className="slider-text">
               <h2 class="text-uppercase intro_featured_word">
 														IT agency
@@ -28,7 +28,7 @@ export class SlickDemo extends Component {
                           </div>
               </div>  
               <div className="wdt">  
-              <img   src= {myImg2} className="img"/>  
+              <img   src= {myImg2} className="img" alt=""/>  
               <div className="slider-text">
               <h2 class="text-uppercase intro_featured_word">
 														Marketing
